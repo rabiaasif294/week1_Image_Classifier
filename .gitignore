@@ -1,0 +1,21 @@
+
+# Dataset files
+data/*
+!data/.gitkeep
+
+# Model weights and generated logs
+outputs/*
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Secrets
+.env
