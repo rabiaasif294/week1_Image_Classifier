@@ -83,3 +83,33 @@ Add new concepts, errors, solutions, and important observations here.
 - Fully Connected Layers
 - Dropout
 - Classification logits
+
+## Task 5 — Model Evaluation
+
+### Evaluation Process
+- Loaded the best saved CNN checkpoint.
+- Evaluated the model using the separate test dataset.
+- Generated predictions for all test images.
+- Compared predicted labels with actual labels.
+
+### Evaluation Metrics
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- Confusion Matrix
+
+### Saved Results
+- classification_report.csv
+- confusion_matrix.csv
+- confusion_matrix.png
+- test_accuracy.txt
+
+### Concepts Learned
+- Model evaluation
+- Test dataset
+- Classification metrics
+- True predictions
+- Incorrect predictions
+- Confusion matrix
+- Model generalization
