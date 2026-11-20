@@ -53,3 +53,33 @@ Add new concepts, errors, solutions, and important observations here.
 - Stratified train-validation splitting
 - Training, validation and test datasets
 - PyTorch Dataset and DataLoader
+
+
+
+## Task 3 — CNN Model Development
+
+### Model Architecture
+- Created a custom CNN using PyTorch.
+- Implemented three convolution blocks.
+- Used ReLU activation after convolution layers.
+- Used Max Pooling to reduce feature-map dimensions.
+- Used Adaptive Average Pooling to reduce features to 1 x 1.
+- Added fully connected classification layers.
+- Added Dropout with probability 0.3.
+- Configured the output layer for 37 pet breeds.
+
+### Input and Output
+- Input shape: Batch x 3 x 224 x 224.
+- Output shape: Batch x 37.
+- Output values are logits (raw class scores).
+
+### Concepts Learned
+- Convolutional Neural Networks
+- Convolution filters
+- ReLU activation
+- Max Pooling
+- Feature extraction
+- Adaptive Average Pooling
+- Fully Connected Layers
+- Dropout
+- Classification logits
