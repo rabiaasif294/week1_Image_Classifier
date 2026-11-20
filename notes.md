@@ -113,3 +113,23 @@ Add new concepts, errors, solutions, and important observations here.
 - Incorrect predictions
 - Confusion matrix
 - Model generalization
+
+
+## Task 6 — Image Prediction
+
+### Prediction Process
+- Loaded the trained CNN checkpoint.
+- Accepted an individual image path.
+- Resized the image to 224 × 224 pixels.
+- Normalized the image using ImageNet mean and standard deviation.
+- Passed the image through the CNN.
+- Applied Softmax to obtain class probabilities.
+- Selected the class with the highest probability.
+
+### Concepts Learned
+- Image preprocessing
+- Model inference
+- Softmax
+- Class probabilities
+- Prediction confidence
+- Loading trained model weights
