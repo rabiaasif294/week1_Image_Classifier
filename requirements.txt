@@ -35,3 +35,4 @@ torch==2.10.0+cpu
 torchvision==0.25.0+cpu
 typing_extensions==4.16.0
 tzdata==2026.6
+streamlit
