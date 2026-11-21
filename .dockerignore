@@ -1,12 +1,14 @@
 
 .git
 .github
-__pycache__
-*.pyc
 .venv
 venv
+__pycache__
+*.pyc
 .ipynb_checkpoints
 .env
-data/*
-outputs/*
+data
+images
+outputs
 notebooks
+exercises
